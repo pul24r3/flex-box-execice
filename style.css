@@ -38,7 +38,7 @@ button{
     color:#F9FAF8;
     background-color:#5788b0; 
     border:blue;
-    border-radius:15%;
+    border-radius:5px;
     align-self:flex-start;
     margin-bottom: 50px;
 }
@@ -91,17 +91,24 @@ h1{
     color:white;
     background-color:blue;
     /*justify-content:space-between;*/
-    /*align-items:center;*/
-    border-radius:5%
+    border-radius:5px
+    
 }
-.end-title{
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-    font-size:20px
-}
-.end-paragraph{
-    display:flex;
+.ab{
+    display: flex;
     flex-direction:column;
     justify-content:center;
+    margin-right:100px;
+    padding:20px
+}
+.end-title{
+    font-size:20px
+}
+.end-button{
+    display:inline-block;
+    margin:30px;
+    vertical-align:middle;
+    outline:white solid 1px;
+    border:1px;
+    border-radius:5px
 }
